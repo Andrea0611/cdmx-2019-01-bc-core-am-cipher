@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="root">
+    <h1>Hola</h1>
+    <h2>Empecemos</h2>
+    <p1>Escribe el mensaje que quieras Codificar o Decodificar</p1>
+    <br>
+    <input type="text" id="mensaje" placeholder="mensaje"></input>
+
+  </div>
+
+  <div id="root1">
+    <h2>Desplazamiento</h2>
+    <p1>Cuantas letras quieres desplazarte</p1>
+    <br>
+    <input type="text" id="offset" placeholder="numero"></input>
+    <!--  <button id="desplazaBoton" onclick="desplazaBoton()">Click</button>
+   </div>
+   <div class="slidecontainer">
+      <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+    </div>-->
+    <br>
+    <br>
+    <div>
+      <button id="codificar" > Codificar</button> 
+      <button id="decodificar">Decodificar</button> 
     </div>
+      <br>
+ <input type= "text" id="cajaRecibeTexto">
+      <br>
+    <div><button id="resetear" onclick="Resetear()"> Resetear </button> </div>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
-  </body>
+
+
 </html>
