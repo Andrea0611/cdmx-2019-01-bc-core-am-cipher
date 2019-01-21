@@ -5,40 +5,48 @@
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Handlee|Pacifico" rel="stylesheet">
+
+
 </head>
 
 <body>
-  <div id="root">
-    <h1>Hola</h1>
-    <h2>Empecemos</h2>
-    <p1>Escribe el mensaje que quieras Codificar o Decodificar</p1>
-    <br>
-    <input type="text" id="mensaje" placeholder="mensaje">
+  
+    <div id="root" class="root">
+      <h1>Hola</h1>
+      <h2>Empecemos</h2>
+      <p1>Escribe el mensaje que quieres Codificar o Decodificar</p1>
+      <br>
+      
+      <input type="text" id="mensaje" placeholder="mensaje">
 
-  </div>
-</body>
-  <div id="root1">
-    <h2>Desplazamiento</h2>
-    <p1>Cuantas letras quieres desplazarte</p1>
-    <br>
-    <input type="text" id="offset" placeholder="numero">
-    </div>
+      
+      <h2>Codificación</h2>
+      <p1>¿Cuantos pasos de codificación quieres?</p1>
+      <br>
 
-    <br>
-    <br>
-    <div>
-      <button id="codificar"> Codificar</button>
-      <button id="decodificar">Decodificar</button>
-    </div>
-    <br>
-   <!-- aqui recibo el texto que se imprime en cipher, pero que viene de index.js-->
-      <p id ="reciboTexto">MENSAJE</p>
+      <input type="text" id="offset" placeholder="numero">
     
-    <br>
-    <p><button id="resetear" onclick="Resetear()"> Resetear </button> </p>
-
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+      <br>
+      <br>
+      
+      <button type="submit"  id="codificar" class="codificar"> Codificar </button>
+      <button type="submit"  id="decodificar" class="decodificar"> Decodificar </button>
+    </div>
+    <br> 
+    
+    <div id="root2" class="root2">
+      <!-- aqui recibo el texto que se imprime en cipher, pero que viene de index.js-->
+      <p id="reciboTexto" class="mensaje">MENSAJE</p>
+      
+      
+      <p><input  type="reset" value="Resetear" class="resetear"></p>
+      
+    </div>
+</body>  
+  
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
 
 
 </html>

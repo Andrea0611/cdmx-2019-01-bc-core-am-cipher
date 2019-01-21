@@ -3,6 +3,7 @@ document.getElementById("codificar").addEventListener("click", () => {
   let mensajeIngreso = document.getElementById("mensaje").value;
   let desplazamiento = document.getElementById("offset").value;
   window.cipher.encode(desplazamiento, mensajeIngreso);
+  
   //console.log (window.cipher.encode (desplazamiento, mensajeIngreso))
   document.getElementById("reciboTexto").innerHTML = window.cipher.encode(desplazamiento, mensajeIngreso);
 

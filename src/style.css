@@ -1,0 +1,86 @@
+body {
+  background-image: url(file:///C:/Users/andre/Documents/Laboratoria/CifradoCesar/Proyecto1/cdmx-2019-01-bc-core-am-cipher/img/img-fondo.jpg.jpg);no-repeat center fixed; 
+  background-size: cover;
+  text-align: center;
+  font-family: 'Handlee', cursive;
+}
+h1 {
+  font-family: 'Pacifico', cursive;
+}
+.root {
+margin: auto;
+  width: 30%;
+  /*border: 4px solid DeepPink;*/
+  background-color: HotPink;
+  opacity: 0.9;
+  padding: 20px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+.codificar{
+  background-color: DeepPink;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Handlee', cursive;
+  font-size: 20px;
+
+}
+
+.decodificar{
+  background-color: deeppink;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Handlee', cursive;
+  font-size: 20px;
+
+}
+
+.root2 {
+  margin: auto;
+    width: 30%;
+    /*border: 4px solid Indigo;*/
+    background-color: MediumOrchid;
+    opacity: 0.9;
+    padding: 20px;
+  }
+  
+  .mensaje{
+   
+    border-style: dotted;
+    border-width: 2px;
+    background-color: azure;
+
+  }
+
+
+  .resetear{
+    background-color: darkviolet;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+  
+  }
+
+/*div {
+  margin: auto;
+  border: 1px solid black;
+  background-color: lightblue;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}*/
