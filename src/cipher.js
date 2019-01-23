@@ -2,18 +2,27 @@ window.cipher = {
   // ... 
 
   encode: (desplazamiento, mensajeIngreso) => {
-    let i = 0
     let menCifrado = "";
-
-
+    let i = 0;
+    let textoAscii = "";
+    
     for (i = 0; i < mensajeIngreso.length; i++) {
-      let mensAscii = mensajeIngreso.toUpperCase().charCodeAt(i);
-      let formula = (mensAscii - 65 + parseInt(desplazamiento)) % 26 + 65;
-      let resultado = String.fromCharCode(formula);
-      menCifrado += resultado;
-
-
-
+      textoAscii = mensajeIngreso.charCodeAt(i);
+      //mayusculas
+      if (textoAscii >= 65 && textoAscii <= 90 ){
+        let textoCifrado = ( textoAscii - 65 + parseInt(desplazamiento)) % 26 + 65;
+        let resultado = String.fromCharCode(textoCifrado);
+        menCifrado += resultado;
+        //minusculas
+      } else if (textoAscii >= 97 && textoAscii <= 122){
+        let textoCifrado = ( textoAscii - 97 + parseInt(desplazamiento)) % 26 + 97;
+        let resultado = String.fromCharCode(textoCifrado);
+        menCifrado += resultado;
+        //signos
+      }else{
+        menCifrado += String.fromCharCode(textoAscii);
+      }
+    
     }
     //console.log(menCifrado)
     return menCifrado
@@ -21,17 +30,30 @@ window.cipher = {
   },
 
   decode: (desplazamientoCodificado, mensajeIngresoCodificado) => {
-    let i = 0
     let mensajeDecifrado = "";
+    let i = 0;
+    let textoAscii = "";
 
     for (i = 0; i < mensajeIngresoCodificado.length; i++) {
-      let mensAsciiDeco = mensajeIngresoCodificado.toUpperCase().charCodeAt(i);
-      let formulaDeco = (mensAsciiDeco + 65 - parseInt(desplazamientoCodificado)) % 26 + 65;
-      let resultadoDeco = String.fromCharCode(formulaDeco);
-      mensajeDecifrado += resultadoDeco;
-    }
-    //console.log (mensajeDecifrado)
-    return mensajeDecifrado
-  }
-}
+      textoAscii = mensajeIngresoCodificado.charCodeAt(i);
+      //mayusculas
+      if(textoAscii >= 65 && textoAscii <= 90){
+        let textodeco = (textoAscii + 65 -parseInt(desplazamientoCodificado)) % 26 + 65;
+        let resultadoDeco = String.fromCharCode(textodeco);
+        mensajeDecifrado += resultadoDeco;
+        //minusculas
+      } else if (textoAscii >= 97 && textoAscii <= 122) {
+        let textodeco = (textoAscii -122 -parseInt(desplazamientoCodificado)) % 26 + 122;
+        let resultadoDeco = String.fromCharCode(textodeco);
+        mensajeDecifrado += resultadoDeco;
+        //carecteres especiales
+      } else {
+        mensajeDecifrado += String.fromCharCode(textoAscii);
+      }
 
+    } 
+//console.log (mensajeDecifrado)
+return mensajeDecifrado
+    }
+    
+  }

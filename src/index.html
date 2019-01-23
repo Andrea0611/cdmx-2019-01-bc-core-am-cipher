@@ -11,9 +11,9 @@
 </head>
 
 <body>
-  
+  <form>
     <div id="root" class="root">
-      <h1>Hola</h1>
+      <h1>Teen Messaging</h1>
       <h2>Empecemos</h2>
       <p1>Escribe el mensaje que quieres Codificar o Decodificar</p1>
       <br>
@@ -22,7 +22,7 @@
 
       
       <h2>Codificación</h2>
-      <p1>¿Cuantos pasos de codificación quieres?</p1>
+      <p1>Elige tu número secreto</p1>
       <br>
 
       <input type="text" id="offset" placeholder="numero">
@@ -30,8 +30,8 @@
       <br>
       <br>
       
-      <button type="submit"  id="codificar" class="codificar"> Codificar </button>
-      <button type="submit"  id="decodificar" class="decodificar"> Decodificar </button>
+      <input type="button" value="Codificar" id="codificar" class="codificar"> 
+      <input type="button" value="Decodificar" id="decodificar" class="decodificar"> 
     </div>
     <br> 
     
@@ -40,9 +40,10 @@
       <p id="reciboTexto" class="mensaje">MENSAJE</p>
       
       
-      <p><input  type="reset" value="Resetear" class="resetear"></p>
+      <p><input id="resetear" type="reset" value="Resetear" class="resetear"></p>
       
     </div>
+  </form>
 </body>  
   
   <script src="cipher.js"></script>

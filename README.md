@@ -1,3 +1,12 @@
+# Teen Messaging
+##- Quiénes son los principales usuarios de producto.
+Mi producto va dirigido a mujeres adolescentes. Rango de edad de 11 a 15 años. Para realizar la interfaz del producto, realice una busqueda de campo, haciendo una comparación en algunaos sitios web que se encuentran en internet dirigida a adolescentes: como revistas, portales, blogs. También en algunas aplicaciones descargables para teléfonos móviles. De esta manera encontre un común entre ellas como: los colores, imagenes,  tipografía, y la forma de presentar y manejar la información. 
+##- Cuáles son los objetivos de estos usuarios en relación con tu producto.
+Que las adolescentes puedan mandarse mensajes entre ellas. Manteniendo privacidad y confidencialidad de su contenido, dándoles la seguridad de poder contarse sus secretos más intimos sin el temor de ser leídos por personas ajenas.
+##- Cómo crees que el producto que estás creando está resolviendo sus problemas.
+La problemática planteada es: la necesidad de mantener en privacidad y secreto los mensajes que las adolescentes se envían a lo largo del día, ya sea en forma de juego o para guardar sus secretos más privados. Fortaleciendo la amistad y la complicidad entre ellas.
+Mantiene la privacidad de sus mensajes, ya que si llegan a ser interceptados por personas ajenas a su conversación, estás no podrían entenderlos, ya que se encuentran cifrados. 
+
 # Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.

@@ -1,5 +1,5 @@
 body {
-  background-image: url(file:///C:/Users/andre/Documents/Laboratoria/CifradoCesar/Proyecto1/cdmx-2019-01-bc-core-am-cipher/img/img-fondo.jpg.jpg);no-repeat center fixed; 
+  background-image: url(file:///C:/Users/andre/Documents/Laboratoria/CifradoCesar/cdmx-2019-01-bc-core-am-cipher/img/img-fondo.jpg.jpg);no-repeat center fixed; 
   background-size: cover;
   text-align: center;
   font-family: 'Handlee', cursive;
@@ -49,7 +49,7 @@ input[type=text], select {
 
 .root2 {
   margin: auto;
-    width: 30%;
+  width: 30%;
     /*border: 4px solid Indigo;*/
     background-color: MediumOrchid;
     opacity: 0.9;
@@ -74,13 +74,3 @@ input[type=text], select {
     font-size: 20px;
   
   }
-
-/*div {
-  margin: auto;
-  border: 1px solid black;
-  background-color: lightblue;
-  padding-top: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-}*/
