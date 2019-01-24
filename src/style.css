@@ -4,16 +4,19 @@ body {
   text-align: center;
   font-family: 'Handlee', cursive;
 }
+
 h1 {
   font-family: 'Pacifico', cursive;
 }
 .root {
 margin: auto;
   width: 30%;
-  /*border: 4px solid DeepPink;*/
   background-color: HotPink;
+  border: 15px solid white;
   opacity: 0.9;
   padding: 20px;
+  outline-style: dotted;
+  outline-color: dimgray;
 }
 
 input[type=text], select {
@@ -29,6 +32,7 @@ input[type=text], select {
 
 .codificar{
   background-color: DeepPink;
+  padding: 10%;
   border: none;
   border-radius: 8px;
   color: white;
@@ -39,6 +43,7 @@ input[type=text], select {
 
 .decodificar{
   background-color: deeppink;
+  padding: 10%;
   border: none;
   border-radius: 8px;
   color: white;
@@ -52,8 +57,14 @@ input[type=text], select {
   width: 30%;
     /*border: 4px solid Indigo;*/
     background-color: MediumOrchid;
+    border: 15px solid white;
+   
     opacity: 0.9;
     padding: 20px;
+    outline-style: dotted;
+    outline-color: dimgray;
+   
+
   }
   
   .mensaje{
@@ -67,6 +78,7 @@ input[type=text], select {
 
   .resetear{
     background-color: darkviolet;
+    padding: 5%;
     border: none;
     border-radius: 8px;
     color: white;
