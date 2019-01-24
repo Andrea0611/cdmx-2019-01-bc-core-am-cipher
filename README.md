@@ -48,5 +48,8 @@ Que las adolescentes puedan mandarse mensajes entre ellas. Manteniendo privacida
 La problemática planteada es: la necesidad de mantener en privacidad y secreto los mensajes que las adolescentes se envían a lo largo del día, ya sea en forma de juego o para guardar sus secretos más privados. Fortaleciendo la amistad y la complicidad entre ellas.
 Mantiene la privacidad de sus mensajes, ya que si llegan a ser interceptados por personas ajenas a su conversación, estás no podrían entenderlos, ya que se encuentran cifrados. 
 
+## Proceso de UI UX
+Este link te lleva al proceso de la elaboración de la experiencia de usuario https://docs.google.com/document/d/1Q7agh0gitN9X05WVxyVnGRkqNEj62i_TyZFePAbAz7U/edit?usp=sharing
+
 ## Agradecimientos
 Le doy gracias a mi Squad, que sin su ayuda y apoyo, mi proyecto no hubiera llegado a su fin de la mejor manera.
