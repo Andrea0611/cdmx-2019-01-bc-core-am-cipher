@@ -1,5 +1,5 @@
 body {
-  background-image: url(file:///C:/Users/andre/Documents/Laboratoria/CifradoCesar/cdmx-2019-01-bc-core-am-cipher/img/img-fondofiguras.jpg.jpg);no-repeat center fixed; 
+  background-image: url("./img/img-fondofiguras.jpg"); 
   background-size: cover;
   text-align: center;
   font-family: 'Handlee', cursive;
